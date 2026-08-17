@@ -1,0 +1,226 @@
+# ============================================================================
+# ENGLISH  —  lang/en.txt
+# ----------------------------------------------------------------------------
+# HOW TO EDIT
+#   One line per text:   key = the text shown on the site
+#   Change ONLY the part after the "=". Never change the key on the left.
+#   Lines starting with # are notes and are ignored.
+#   Use \n where you want a line break inside a text.
+#   A few values contain HTML tags (<br>, <em>) — keep the tags, translate
+#   the words between them.
+#
+# This file is the fallback: if a key is missing from tr.txt or de.txt,
+# the English text below is shown instead.
+# ============================================================================
+
+
+# ---------------------------------------------------------------- browser tab
+meta.title       = Aegean Oregano — Premium Origanum Exporter from Türkiye
+meta.description = Grower and exporter of premium Turkish oregano — dried leaves, rubbed, powder and essential oil. ISO 22000, HACCP and organic certified. Shipping to 40+ countries.
+meta.ogTitle     = Aegean Oregano — Premium Origanum Exporter
+
+a11y.skip = Skip to content
+
+
+# ---------------------------------------------------------------- brand & nav
+brand.name    = Aegean Oregano
+brand.tagline = Origanum Exporter · Est. 1998
+
+nav.about     = About
+nav.products  = Products
+nav.quality   = Quality
+nav.process   = Process
+nav.packaging = Packaging
+nav.contact   = Contact
+nav.cta       = Request a quote
+
+
+# ---------------------------------------------------------------------- hero
+hero.eyebrow      = Origanum onites · Aegean highlands, Türkiye
+hero.title        = The oregano the world<br><em>cooks with.</em>
+hero.lead         = We grow, dry and export premium Turkish oregano in bulk — leaves, rubbed, powder and essential oil — with full traceability from field to container.
+hero.ctaPrimary   = Request a quote
+hero.ctaSecondary = See our products
+hero.badge1       = ISO 22000
+hero.badge2       = HACCP
+hero.badge3       = EU / USDA Organic
+hero.badge4       = Halal & Kosher
+
+
+# --------------------------------------------------------------------- stats
+stats.years     = Years of export
+stats.countries = Countries served
+stats.tons      = Tonnes shipped / year
+stats.traceable = Lot traceability
+
+
+# --------------------------------------------------------------------- about
+about.eyebrow    = Who we are
+about.title      = Three generations of one crop
+about.lead       = Our family has farmed oregano on the limestone slopes above the Aegean since 1998. Today we work with 180 contracted growers across the region and run our own drying, cleaning and packing facility.
+about.body       = That means one thing for buyers: the oregano in your container was picked, dried and tested by the same people who sold it to you. No brokers, no blending of unknown lots, no surprises at customs.
+about.point1     = Own farms and contracted growers under one agronomy programme
+about.point2     = In-house lab: moisture, ash, pesticide and microbiology screening
+about.point3     = Steam sterilisation without irradiation or ETO
+about.point4     = Export documentation handled end to end
+about.photoNote  = Photo: harvest, Aegean highlands
+about.photoNote2 = Photo: sorting line
+
+
+# ------------------------------------------------------------------ products
+products.eyebrow = What we ship
+products.title   = Our products
+products.intro   = Every grade is available in bulk and in private-label retail packs. Custom cuts and mesh sizes to your specification.
+
+products.label.cut       = Cut
+products.label.purity    = Purity
+products.label.moisture  = Moisture
+products.label.mesh      = Mesh
+products.label.carvacrol = Carvacrol
+products.label.method    = Method
+products.label.pack      = Pack
+products.label.range     = Range
+products.label.origin    = Origin
+products.label.moq       = MOQ
+
+products.p1.name     = Dried Oregano Leaves
+products.p1.desc     = Whole and cut leaves, hand-harvested and shade-dried to protect colour and volatile oil.
+products.p1.cut      = 2–4 mm / 4–8 mm
+products.p1.purity   = 99.5% min.
+products.p1.moisture = ≤ 10%
+
+products.p2.name     = Rubbed Oregano
+products.p2.desc     = Stem-free rubbed leaf with a soft, fluffy texture — the standard for pizza and spice blenders.
+products.p2.cut      = Rubbed, stemless
+products.p2.purity   = 99.9% min.
+products.p2.moisture = ≤ 9%
+
+products.p3.name     = Oregano Powder
+products.p3.desc     = Milled to your mesh specification for seasonings, sauces and instant products.
+products.p3.mesh     = 30 / 60 / 80
+products.p3.purity   = 100%
+products.p3.moisture = ≤ 8%
+
+products.p4.name      = Oregano Essential Oil
+products.p4.desc      = Steam-distilled from our own leaf, with a certificate of analysis for every batch.
+products.p4.carvacrol = 70–85%
+products.p4.method    = Steam distillation
+products.p4.pack      = 1 / 5 / 25 kg
+
+products.p5.name   = Other Mediterranean Herbs
+products.p5.desc   = Bay leaves, thyme, sage and rosemary from the same growing region and the same quality programme.
+products.p5.range  = Whole / cut / ground
+products.p5.origin = Aegean region
+products.p5.moq    = 1 tonne
+
+products.custom.title = Need a custom specification?
+products.custom.desc  = Tell us your cut, purity, packaging and destination port. We will send a specification sheet and a sample within three working days.
+products.custom.cta   = Talk to our export team
+
+
+# ------------------------------------------------------------------- quality
+quality.eyebrow = Standards
+quality.title   = Quality & certification
+quality.intro   = Every lot is tested before it leaves the facility and shipped with a full document set.
+
+quality.certsTitle = Certifications
+quality.cert1      = ISO 22000 Food Safety Management
+quality.cert2      = HACCP hazard analysis programme
+quality.cert3      = EU Organic & USDA NOP certified lines
+quality.cert4      = GLOBALG.A.P. contracted growers
+quality.cert5      = Halal and Kosher certified
+quality.cert6      = Accredited third-party laboratory analysis
+quality.certNote   = Certificate copies are supplied with every offer. Placeholder — replace with your actual certificate list and PDFs.
+
+quality.specTitle = Typical specification
+quality.th1       = Parameter
+quality.th2       = Standard
+quality.th3       = Method
+quality.r1        = Moisture
+quality.r2        = Total ash
+quality.r3        = Acid-insoluble ash
+quality.r4        = Volatile oil
+quality.r5        = Foreign matter
+quality.r6        = Salmonella
+quality.r6v       = Absent in 25 g
+quality.r7        = Pesticide residues
+quality.r7v       = EU MRL compliant
+quality.specNote  = Indicative values. Final specification is agreed per contract.
+
+
+# ------------------------------------------------------------------- process
+process.eyebrow = How it works
+process.title   = From field to container
+process.intro   = Seven controlled steps, one traceable lot number.
+
+process.s1.t = Harvest
+process.s1.d = Cut at peak carvacrol, between June and August.
+process.s2.t = Drying
+process.s2.d = Shade-dried in controlled airflow to hold colour and oil.
+process.s3.t = Cleaning
+process.s3.d = De-stemming, sieving, gravity separation and metal detection.
+process.s4.t = Sterilisation
+process.s4.d = Saturated steam only — no irradiation, no ethylene oxide.
+process.s5.t = Laboratory
+process.s5.d = Moisture, ash, oil, microbiology and residue screening per lot.
+process.s6.t = Packing
+process.s6.d = Food-grade liners, sealed and palletised under your label.
+process.s7.t = Shipping
+process.s7.d = Loaded at Izmir with full documentation and lot traceability.
+
+
+# ----------------------------------------------------------------- packaging
+packaging.eyebrow   = Logistics
+packaging.title     = Packaging & shipping
+packaging.lead      = We ship FCL and LCL from Izmir and Mersin, and handle air freight for samples and urgent orders.
+packaging.c1.t      = Bulk cartons
+packaging.c1.d      = 10 kg and 20 kg export cartons with food-grade PE liner.
+packaging.c2.t      = Bales & bags
+packaging.c2.d      = Compressed bales and 25 kg multi-wall paper bags.
+packaging.c3.t      = Private label
+packaging.c3.d      = Retail jars, doypacks and sachets printed with your artwork.
+packaging.c4.t      = Container loading
+packaging.c4.d      = Up to 12 t in a 20' and 22 t in a 40' HC, palletised or floor-loaded.
+packaging.incoTitle = Incoterms:
+packaging.incoList  = EXW · FOB · CFR · CIF · DAP
+packaging.photoNote = Photo: palletised cartons ready for loading
+
+
+# ------------------------------------------------------------------- contact
+contact.eyebrow      = Get in touch
+contact.title        = Request a quote
+contact.lead         = Send us your target grade, quantity and destination port. You will hear back within one working day.
+contact.emailLabel   = Email
+contact.phoneLabel   = Phone
+contact.waLabel      = WhatsApp
+contact.addressLabel = Address
+contact.address      = Organize Sanayi Bölgesi, 1. Cadde No: 00, Denizli, Türkiye
+contact.hoursLabel   = Hours
+contact.hours        = Mon–Fri, 09:00–18:00 (GMT+3)
+
+
+# ---------------------------------------------------------------------- form
+form.name       = Name
+form.company    = Company
+form.email      = Email
+form.country    = Country
+form.product    = Product
+form.quantity   = Quantity
+form.quantityPh = e.g. 20 tonnes
+form.message    = Message
+form.messagePh  = Destination port, packaging, target price…
+form.submit     = Send request
+form.note       = This form opens your email client with the message pre-filled. No data is stored on this site.
+
+form.mailSubject   = Quotation request
+form.errRequired   = This field is required.
+form.errEmail      = Please enter a valid email address.
+form.errMessage    = Please give us at least a few words.
+form.statusInvalid = Please check the highlighted fields.
+form.statusSent    = Your email client should now be open. If nothing happened, write to us directly.
+
+
+# -------------------------------------------------------------------- footer
+footer.blurb  = Grower, processor and exporter of Mediterranean herbs from the Aegean region of Türkiye.
+footer.rights = © 2026 Aegean Oregano. All rights reserved.
+footer.legal  = Placeholder company details — replace before launch.

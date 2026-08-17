@@ -1,0 +1,14 @@
+# ============================================================================
+# PREVIEW MODE — the site is not ready to be indexed.
+#
+# AT LAUNCH: delete the two "Disallow" lines below, uncomment "Allow: /",
+# and remove the <meta name="robots" content="noindex, nofollow"> tag
+# from the top of index.html.
+# ============================================================================
+
+User-agent: *
+Disallow: /
+
+# Allow: /
+
+Sitemap: https://yigitmsahin.github.io/oregano/sitemap.xml

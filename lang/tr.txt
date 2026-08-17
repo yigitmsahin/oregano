@@ -1,0 +1,223 @@
+# ============================================================================
+# TÜRKÇE  —  lang/tr.txt
+# ----------------------------------------------------------------------------
+# NASIL DÜZENLENİR
+#   Her satır bir metin:   anahtar = sitede görünen yazı
+#   Sadece "=" işaretinin SAĞINDAKİ kısmı değiştirin. Soldaki anahtara dokunmayın.
+#   # ile başlayan satırlar nottur, siteye yansımaz.
+#   Satır atlamak için \n yazın.
+#   Bazı değerlerde HTML etiketi (<br>, <em>) vardır — etiketleri koruyun,
+#   sadece aralarındaki kelimeleri çevirin.
+# ============================================================================
+
+
+# ------------------------------------------------------------- tarayıcı sekmesi
+meta.title       = Ege Kekik — Türkiye'den Premium Kekik İhracatı
+meta.description = Premium Türk kekiğinin üreticisi ve ihracatçısı — kuru yaprak, ovulmuş, toz ve uçucu yağ. ISO 22000, HACCP ve organik sertifikalı. 40'tan fazla ülkeye sevkiyat.
+meta.ogTitle     = Ege Kekik — Premium Kekik İhracatçısı
+
+a11y.skip = İçeriğe geç
+
+
+# ------------------------------------------------------------- marka ve menü
+brand.name    = Ege Kekik
+brand.tagline = Kekik İhracatçısı · 1998'den beri
+
+nav.about     = Hakkımızda
+nav.products  = Ürünler
+nav.quality   = Kalite
+nav.process   = Süreç
+nav.packaging = Ambalaj
+nav.contact   = İletişim
+nav.cta       = Teklif alın
+
+
+# ------------------------------------------------------------------- açılış
+hero.eyebrow      = Origanum onites · Ege yaylaları, Türkiye
+hero.title        = Dünyanın mutfağındaki<br><em>kekik.</em>
+hero.lead         = Premium Türk kekiğini yetiştiriyor, kurutuyor ve dökme olarak ihraç ediyoruz — yaprak, ovulmuş, toz ve uçucu yağ; tarladan konteynere tam izlenebilirlik ile.
+hero.ctaPrimary   = Teklif alın
+hero.ctaSecondary = Ürünlerimizi görün
+hero.badge1       = ISO 22000
+hero.badge2       = HACCP
+hero.badge3       = AB / USDA Organik
+hero.badge4       = Helal & Koşer
+
+
+# ----------------------------------------------------------------- rakamlar
+stats.years     = Yıllık ihracat deneyimi
+stats.countries = Ülkeye sevkiyat
+stats.tons      = Ton / yıl sevkiyat
+stats.traceable = Parti izlenebilirliği
+
+
+# --------------------------------------------------------------- hakkımızda
+about.eyebrow    = Biz kimiz
+about.title      = Tek bir ürünün üç kuşağı
+about.lead       = Ailemiz 1998'den bu yana Ege'nin kireçtaşı yamaçlarında kekik yetiştiriyor. Bugün bölgede 180 sözleşmeli üretici ile çalışıyor; kendi kurutma, temizleme ve paketleme tesisimizi işletiyoruz.
+about.body       = Bu, alıcılar için tek bir anlama gelir: konteynerinizdeki kekiği toplayan, kurutan ve test eden kişilerle size satan kişiler aynıdır. Aracı yok, bilinmeyen partilerin karıştırılması yok, gümrükte sürpriz yok.
+about.point1     = Kendi tarlalarımız ve tek bir tarım programı altındaki sözleşmeli üreticiler
+about.point2     = Kendi laboratuvarımız: nem, kül, pestisit ve mikrobiyoloji analizleri
+about.point3     = Işınlama ve ETO olmadan yalnızca buharla sterilizasyon
+about.point4     = İhracat evraklarının baştan sona takibi
+about.photoNote  = Fotoğraf: hasat, Ege yaylaları
+about.photoNote2 = Fotoğraf: ayıklama hattı
+
+
+# ------------------------------------------------------------------- ürünler
+products.eyebrow = Neler gönderiyoruz
+products.title   = Ürünlerimiz
+products.intro   = Tüm kaliteler dökme ve özel markalı perakende ambalajda mevcuttur. Talebinize göre özel kıyım ve elek boyutları yapılır.
+
+products.label.cut       = Kıyım
+products.label.purity    = Saflık
+products.label.moisture  = Nem
+products.label.mesh      = Elek
+products.label.carvacrol = Karvakrol
+products.label.method    = Yöntem
+products.label.pack      = Ambalaj
+products.label.range     = Çeşit
+products.label.origin    = Menşe
+products.label.moq       = Min. sipariş
+
+products.p1.name     = Kuru Kekik Yaprağı
+products.p1.desc     = Elle hasat edilmiş, rengini ve uçucu yağını korumak için gölgede kurutulmuş bütün ve kıyılmış yaprak.
+products.p1.cut      = 2–4 mm / 4–8 mm
+products.p1.purity   = min. %99,5
+products.p1.moisture = ≤ %10
+
+products.p2.name     = Ovulmuş Kekik
+products.p2.desc     = Sapsız, yumuşak ve kabarık dokulu ovulmuş yaprak — pizza ve baharat harmanlayıcılarının standardı.
+products.p2.cut      = Ovulmuş, sapsız
+products.p2.purity   = min. %99,9
+products.p2.moisture = ≤ %9
+
+products.p3.name     = Toz Kekik
+products.p3.desc     = Çeşni, sos ve hazır ürünler için istediğiniz elek boyutunda öğütülür.
+products.p3.mesh     = 30 / 60 / 80
+products.p3.purity   = %100
+products.p3.moisture = ≤ %8
+
+products.p4.name      = Kekik Uçucu Yağı
+products.p4.desc      = Kendi yaprağımızdan buharla damıtılır; her parti için analiz sertifikası verilir.
+products.p4.carvacrol = %70–85
+products.p4.method    = Buharla damıtma
+products.p4.pack      = 1 / 5 / 25 kg
+
+products.p5.name   = Diğer Akdeniz Bitkileri
+products.p5.desc   = Aynı üretim bölgesinden ve aynı kalite programından defne, kekik otu, adaçayı ve biberiye.
+products.p5.range  = Bütün / kıyılmış / öğütülmüş
+products.p5.origin = Ege bölgesi
+products.p5.moq    = 1 ton
+
+products.custom.title = Özel bir spesifikasyon mu gerekiyor?
+products.custom.desc  = Kıyım, saflık, ambalaj ve varış limanınızı bize iletin. Üç iş günü içinde spesifikasyon formu ve numune gönderelim.
+products.custom.cta   = İhracat ekibimizle görüşün
+
+
+# -------------------------------------------------------------------- kalite
+quality.eyebrow = Standartlar
+quality.title   = Kalite ve sertifikasyon
+quality.intro   = Her parti tesisten çıkmadan önce test edilir ve eksiksiz evrak setiyle sevk edilir.
+
+quality.certsTitle = Sertifikalar
+quality.cert1      = ISO 22000 Gıda Güvenliği Yönetimi
+quality.cert2      = HACCP tehlike analizi programı
+quality.cert3      = AB Organik & USDA NOP sertifikalı hatlar
+quality.cert4      = GLOBALG.A.P. sözleşmeli üreticiler
+quality.cert5      = Helal ve Koşer sertifikalı
+quality.cert6      = Akredite üçüncü taraf laboratuvar analizi
+quality.certNote   = Sertifika kopyaları her teklifle birlikte gönderilir. Örnek metin — kendi sertifika listeniz ve PDF'leriniz ile değiştirin.
+
+quality.specTitle = Tipik spesifikasyon
+quality.th1       = Parametre
+quality.th2       = Standart
+quality.th3       = Metot
+quality.r1        = Nem
+quality.r2        = Toplam kül
+quality.r3        = Asitte çözünmeyen kül
+quality.r4        = Uçucu yağ
+quality.r5        = Yabancı madde
+quality.r6        = Salmonella
+quality.r6v       = 25 g'da bulunmaz
+quality.r7        = Pestisit kalıntısı
+quality.r7v       = AB MRL uyumlu
+quality.specNote  = Değerler bilgi amaçlıdır. Nihai spesifikasyon sözleşmeye göre belirlenir.
+
+
+# --------------------------------------------------------------------- süreç
+process.eyebrow = Nasıl çalışıyor
+process.title   = Tarladan konteynere
+process.intro   = Yedi kontrollü adım, tek bir izlenebilir parti numarası.
+
+process.s1.t = Hasat
+process.s1.d = Karvakrolün zirvede olduğu haziran–ağustos döneminde biçilir.
+process.s2.t = Kurutma
+process.s2.d = Rengi ve yağı korumak için kontrollü hava akımında gölgede kurutulur.
+process.s3.t = Temizleme
+process.s3.d = Sap ayırma, eleme, gravite ayırma ve metal dedektörü.
+process.s4.t = Sterilizasyon
+process.s4.d = Yalnızca doymuş buhar — ışınlama ve etilen oksit yok.
+process.s5.t = Laboratuvar
+process.s5.d = Parti bazında nem, kül, yağ, mikrobiyoloji ve kalıntı analizi.
+process.s6.t = Paketleme
+process.s6.d = Gıdaya uygun iç torba, sizin markanızla kapatılır ve paletlenir.
+process.s7.t = Sevkiyat
+process.s7.d = İzmir'de eksiksiz evrak ve parti izlenebilirliği ile yüklenir.
+
+
+# -------------------------------------------------------------------- ambalaj
+packaging.eyebrow   = Lojistik
+packaging.title     = Ambalaj ve sevkiyat
+packaging.lead      = İzmir ve Mersin'den FCL ve LCL sevkiyat yapıyor, numune ve acil siparişler için hava kargo düzenliyoruz.
+packaging.c1.t      = Dökme koliler
+packaging.c1.d      = Gıdaya uygun PE iç torbalı 10 kg ve 20 kg ihracat kolileri.
+packaging.c2.t      = Balya ve çuval
+packaging.c2.d      = Preslenmiş balya ve 25 kg çok katlı kraft torba.
+packaging.c3.t      = Özel marka
+packaging.c3.d      = Kendi tasarımınızla basılmış perakende kavanoz, doypack ve saşe.
+packaging.c4.t      = Konteyner yükleme
+packaging.c4.d      = 20'lik konteynere 12 tona, 40' HC'ye 22 tona kadar; paletli veya dökme.
+packaging.incoTitle = Teslim şekilleri:
+packaging.incoList  = EXW · FOB · CFR · CIF · DAP
+packaging.photoNote = Fotoğraf: yüklemeye hazır paletli koliler
+
+
+# ------------------------------------------------------------------- iletişim
+contact.eyebrow      = Bize ulaşın
+contact.title        = Teklif alın
+contact.lead         = Hedeflediğiniz kaliteyi, miktarı ve varış limanını iletin. Bir iş günü içinde dönüş yapıyoruz.
+contact.emailLabel   = E-posta
+contact.phoneLabel   = Telefon
+contact.waLabel      = WhatsApp
+contact.addressLabel = Adres
+contact.address      = Organize Sanayi Bölgesi, 1. Cadde No: 00, Denizli, Türkiye
+contact.hoursLabel   = Çalışma saatleri
+contact.hours        = Pzt–Cum, 09:00–18:00 (GMT+3)
+
+
+# ----------------------------------------------------------------------- form
+form.name       = Ad Soyad
+form.company    = Firma
+form.email      = E-posta
+form.country    = Ülke
+form.product    = Ürün
+form.quantity   = Miktar
+form.quantityPh = örn. 20 ton
+form.message    = Mesaj
+form.messagePh  = Varış limanı, ambalaj, hedef fiyat…
+form.submit     = Talebi gönder
+form.note       = Bu form, mesajı hazır şekilde e-posta programınızda açar. Bu sitede hiçbir veri saklanmaz.
+
+form.mailSubject   = Fiyat teklifi talebi
+form.errRequired   = Bu alan zorunludur.
+form.errEmail      = Lütfen geçerli bir e-posta adresi girin.
+form.errMessage    = Lütfen en az birkaç kelime yazın.
+form.statusInvalid = Lütfen işaretlenen alanları kontrol edin.
+form.statusSent    = E-posta programınız açılmış olmalı. Açılmadıysa doğrudan bize yazabilirsiniz.
+
+
+# --------------------------------------------------------------------- alt bilgi
+footer.blurb  = Türkiye'nin Ege bölgesinden Akdeniz bitkilerinin üreticisi, işleyicisi ve ihracatçısı.
+footer.rights = © 2026 Ege Kekik. Tüm hakları saklıdır.
+footer.legal  = Örnek firma bilgileri — yayına almadan önce değiştirin.

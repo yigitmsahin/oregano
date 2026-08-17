@@ -1,0 +1,9 @@
+# Normalise line endings so Windows and Linux checkouts produce identical
+# files. Without this, editing on Windows creates noisy whole-file diffs.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary

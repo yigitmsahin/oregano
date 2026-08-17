@@ -48,7 +48,7 @@ hero.badge4       = Halal & Koscher
 stats.years     = Jahre Exporterfahrung
 stats.countries = Belieferte Länder
 stats.tons      = Tonnen Versand / Jahr
-stats.traceable = Chargenrückverfolgung
+stats.traceable = Rückverfolgbarkeit
 
 
 # ------------------------------------------------------------------- Über uns

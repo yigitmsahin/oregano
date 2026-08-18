@@ -276,17 +276,31 @@ em { font-style: italic; color: var(--herb-600); }
   height: var(--header-h);
   display: flex;
   align-items: center;
-  background: rgba(250, 248, 242, 0);
-  transition: background-color .35s var(--ease), box-shadow .35s var(--ease), height .35s var(--ease);
+  transition: height .35s var(--ease);
 }
 
-.site-header.is-stuck {
+/* The frosted bar is painted by a pseudo-element rather than by .site-header
+   itself. backdrop-filter turns an element into the containing block for its
+   position:fixed descendants, which would trap the off-canvas mobile menu
+   inside the 66px header instead of letting it cover the screen. A pseudo
+   element has no descendants, so the blur is harmless here. */
+.site-header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background: rgba(250, 248, 242, 0);
+  transition: background-color .35s var(--ease), box-shadow .35s var(--ease);
+}
+
+.site-header.is-stuck::before {
   background: rgba(250, 248, 242, .88);
   -webkit-backdrop-filter: saturate(1.6) blur(14px);
   backdrop-filter: saturate(1.6) blur(14px);
   box-shadow: 0 1px 0 var(--border-soft), var(--shadow-sm);
-  height: 66px;
 }
+
+.site-header.is-stuck { height: 66px; }
 
 .header-inner {
   display: flex;
@@ -1078,9 +1092,15 @@ em { font-style: italic; color: var(--herb-600); }
 @media (max-width: 860px) {
   .nav-toggle { display: flex; }
 
-  .site-header.is-open {
+  /* While the menu is open the bar is solid, and keeps its full height so it
+     meets the top of the panel exactly (the panel starts at --header-h). */
+  .site-header.is-open { height: var(--header-h); }
+
+  .site-header.is-open::before {
     background: var(--bg);
     box-shadow: none;
+    -webkit-backdrop-filter: none;
+    backdrop-filter: none;
   }
 
   .site-nav {

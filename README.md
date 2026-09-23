@@ -1,6 +1,7 @@
-# Oregano Export — one-page website
+# Nilc Tarım — one-page website
 
-A static, multi-language single-page site for an oregano export company.
+A static, multi-language single-page site for Nilc Tarım, a trader of Turkish
+oregano, sage and essential oils from the Denizli region.
 No database, no build step, no framework. HTML + CSS + jQuery, deployable to
 GitHub Pages by pushing the folder.
 
@@ -18,7 +19,7 @@ js/main.js          Nav, scroll effects, counters, contact form
 lang/en.txt         English  ← fallback language
 lang/tr.txt         Turkish
 lang/de.txt         German
-assets/favicon.svg  Tab icon
+assets/             Logo files, favicon, home-screen icon
 assets/img/         Drop customer photos here (see the README inside)
 .nojekyll           Tells GitHub Pages to serve files as-is
 robots.txt          Update the domain before launch
@@ -89,21 +90,20 @@ array in `i18n.js` — the engine then sets `dir="rtl"` on the page.
 
 ---
 
-## What to replace before launch
+## Where the content lives
 
-Everything below is placeholder content:
+The copy, products, email and address are the customer's own. Everything
+below is still open or placeholder:
 
 | What | Where |
 |---|---|
-| Company name, tagline, all copy | `lang/*.txt` |
-| Email, phone, WhatsApp, address | `index.html` → contact section, and `lang/*.txt` |
-| Certifications list | `lang/*.txt` → `quality.cert1`–`cert6` |
-| Specification table values | `index.html` → quality section (numbers are not translated) |
-| Statistics (27 years, 42 countries…) | `index.html` → `data-count` attributes |
+| All copy | `lang/*.txt` |
+| Email, company name, address | `index.html` → contact section and schema.org block, and `lang/*.txt` |
+| Statistics (45 years, 3,000 MT, 3 product lines) | `index.html` → `data-count` attributes |
+| Phone / WhatsApp / office hours | Not supplied yet — add a row to `.contact-list` in `index.html` plus a label key in each `lang/*.txt` |
 | Photos | `assets/img/` — see [the guide there](assets/img/README.md) |
-| Logo | `index.html` → `.brand-mark` SVG, and `assets/favicon.svg` |
+| Logo | `assets/logo.svg` (full), `logo-light.svg` (footer), `logo-wordmark.svg` (header), `favicon.svg`, `logo.png` — all built from `assets/img/nilc-logo.pdf` |
 | Domain in `robots.txt`, `sitemap.xml`, and the `og:`/`canonical` tags | as listed |
-| Schema.org block (address, phone) | `index.html` → `<script type="application/ld+json">` |
 
 ### Changing the colours
 
@@ -129,8 +129,8 @@ pre-filled (`mailto:`). The recipient address is read from the email link in
 the contact section, so it is defined in exactly one place.
 
 This works everywhere but has a real limitation: visitors using webmail without
-a configured mail handler may see nothing happen. The prominent email and
-WhatsApp links next to the form cover that case.
+a configured mail handler may see nothing happen. The prominent email link
+next to the form covers that case.
 
 **To collect submissions properly**, sign up for a form relay — Formspree,
 Basin and Web3Forms all have free tiers and work on static hosting — and

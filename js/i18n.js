@@ -8,6 +8,7 @@
      data-i18n="key"              -> element text
      data-i18n-html="key"         -> element HTML (values may contain tags)
      data-i18n-placeholder="key"  -> placeholder attribute
+     data-i18n-alt="key"          -> alt attribute (images)
      data-i18n-content="key"      -> content attribute (used on <meta>)
 
    From other scripts:
@@ -104,6 +105,11 @@ window.I18n = (function ($) {
     $("[data-i18n-placeholder]").each(function () {
       var key = this.getAttribute("data-i18n-placeholder");
       if (dict[key] !== undefined) { this.setAttribute("placeholder", dict[key]); }
+    });
+
+    $("[data-i18n-alt]").each(function () {
+      var key = this.getAttribute("data-i18n-alt");
+      if (dict[key] !== undefined) { this.setAttribute("alt", dict[key]); }
     });
 
     $("[data-i18n-content]").each(function () {

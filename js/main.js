@@ -21,7 +21,7 @@
       I18n.setLang($(this).data("lang"));
     });
 
-    /* Numbers are re-rendered on switch so 5,000 becomes 5.000 in de/tr. */
+    /* Numbers are re-rendered on switch so 3,000 becomes 3.000 in de/tr. */
     $(document).on("languagechange.i18n", function () {
       $(".stat-num").each(function () {
         var $n = $(this);
@@ -177,7 +177,7 @@
       }, { threshold: 0.12, rootMargin: "0px 0px -60px 0px" });
 
       /* Stagger cards inside a grid so they cascade rather than pop together. */
-      $(".product-grid, .pack-cards, .process-steps, .cert-items, .stats-grid").each(function () {
+      $(".product-grid, .process-steps, .stats-grid").each(function () {
         $(this).children(".reveal").each(function (i) {
           this.style.transitionDelay = Math.min(i * 70, 420) + "ms";
         });
@@ -232,7 +232,7 @@
 
     function sendByMail(data) {
       /* Recipient comes from the contact list, so it lives in exactly one place. */
-      var to = ($('[data-contact="email"]').attr("href") || "mailto:export@example.com")
+      var to = ($('[data-contact="email"]').attr("href") || "mailto:sales@nilc.com")
                  .replace("mailto:", "");
 
       var subject = I18n.t("form.mailSubject") + " — " + data.product + " — " + (data.company || data.name);

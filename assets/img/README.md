@@ -1,47 +1,21 @@
 # Images
 
-Drop the customer's photos here. Nothing in this folder is required for the site
-to work — every image slot currently falls back to a CSS-drawn placeholder.
-
-## Recommended files
-
-| File | Used for | Suggested size |
+| File | Used for | Size |
 |---|---|---|
-| `hero.jpg` | Full-width background behind the headline | 2400 × 1400, < 400 KB |
-| `field.jpg` | "About" — harvest / field shot | 1200 × 1500 |
-| `sorting.jpg` | "About" — small overlapping photo | 800 × 800 |
-| `packing.jpg` | "Packaging" — palletised cartons | 1200 × 1600 |
+| `hero.jpg` | Background behind the headline (set in `css/style.css`, `.hero-bg`) | 1376 × 768 |
+| `girl-in-the-field.jpg` | "About" — the large photo, with the family caption | 896 × 1195 |
+| `leaf.jpg` | "About" — small overlapping photo (hidden on phones) | 800 × 800 |
+| `field.jpg` | Background of the PA-compliance section (set in `css/style.css`, `#quality`) | 848 × 1264 |
+| `oregano.jpg`, `sage.jpg`, `oils.jpg` | Product cards | 1000 wide |
 | `og-image.jpg` | Link preview on WhatsApp / LinkedIn | 1200 × 630 |
+| `nilc-logo.pdf` | The customer's logo — source for `assets/logo*.svg` | — |
 
-## How to swap a placeholder for a real photo
+The files here are web-optimised copies. The untouched originals live in
+`originals/`, which is kept out of git (see `.gitignore`).
 
-**Hero background** — one line in [`../../css/style.css`](../../css/style.css), in the `.hero-bg` rule:
+## Replacing a photo
 
-```css
-.hero-bg {
-  background-image: linear-gradient(rgba(27,42,25,.45), rgba(27,42,25,.45)), url("../assets/img/hero.jpg");
-  background-size: cover;
-  background-position: center;
-}
-```
-
-**Section photos** — in [`../../index.html`](../../index.html), replace the whole
-placeholder block with an `<img>`:
-
-```html
-<!-- before -->
-<div class="photo-frame photo-field">
-  <span class="photo-note" data-i18n="about.photoNote">…</span>
-</div>
-
-<!-- after -->
-<img class="photo-frame" src="assets/img/field.jpg" alt="Oregano harvest in the Aegean highlands" loading="lazy">
-```
-
-Keep the `photo-frame` class — it carries the rounded corners and shadow.
-
-## Before uploading
-
-- Export as JPEG at ~80% quality, or WebP for smaller files.
-- Keep each photo under ~400 KB; GitHub Pages has no image optimisation.
-- Write a real `alt` description — it matters for search ranking and screen readers.
+Save the new file under the same name and size, as JPEG at ~80% quality, and
+keep it under ~250 KB — GitHub Pages does no image optimisation.
+Alt text for the About photos is translated: `about.familyAlt` and
+`about.leafAlt` in `lang/*.txt`.

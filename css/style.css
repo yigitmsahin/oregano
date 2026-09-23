@@ -1,9 +1,9 @@
 /* ==========================================================================
-   Aegean Oregano — one-page export site
+   Nilc Tarım — one-page site
    Sections: 1 Tokens · 2 Reset · 3 Typography · 4 Buttons · 5 Layout
              6 Header/Nav · 7 Hero · 8 Stats · 9 About · 10 Products
-             11 Quality · 12 Process · 13 Packaging · 14 Contact/Form
-             15 Footer · 16 Utilities · 17 Motion · 18 Responsive · 19 Print
+             11 Quality · 12 Contact/Form · 13 Footer · 14 Utilities
+             15 Motion · 16 Responsive · 17 Print
    ========================================================================== */
 
 /* ============================ 1. TOKENS ============================ */
@@ -92,8 +92,7 @@ body {
 /* Proper hyphenation in the narrow columns, using the dictionary for whatever
    <html lang> currently is (the translation engine keeps it in sync). */
 .stat-label,
-.cert-items li,
-.pack-card p,
+.process-steps p,
 .spec dt,
 .spec dd,
 .tick-list li,
@@ -171,23 +170,6 @@ p:last-child { margin-bottom: 0; }
   color: var(--ink-soft);
 }
 
-.minor-head {
-  font-family: var(--font-body);
-  font-size: var(--fs-small);
-  font-weight: 700;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: var(--ink-soft);
-  margin-bottom: 1.25rem;
-}
-
-.note {
-  font-size: var(--fs-small);
-  color: var(--ink-mute);
-  margin-top: 1rem;
-  line-height: 1.55;
-}
-
 em { font-style: italic; color: var(--herb-600); }
 
 /* ============================ 4. BUTTONS ============================ */
@@ -237,15 +219,12 @@ em { font-style: italic; color: var(--herb-600); }
 }
 
 /* Grid and flex children default to min-width:auto, which refuses to shrink
-   below their own content. Any descendant with a min-width (the spec table)
-   would otherwise widen its column and push the whole page past the screen
-   edge on phones — which also drags the fixed header out of view. */
+   below their own content. A long unbreakable word or any descendant with a
+   min-width would otherwise widen its column and push the whole page past the
+   screen edge on phones — which also drags the fixed header out of view. */
 .about-grid > *,
-.quality-grid > *,
-.packaging-grid > *,
 .contact-grid > *,
 .product-grid > *,
-.pack-cards > *,
 .stats-grid > *,
 .field-row > * { min-width: 0; }
 
@@ -260,6 +239,14 @@ em { font-style: italic; color: var(--herb-600); }
 .section-dark .eyebrow { color: var(--sage-400); }
 .section-dark .eyebrow::before { background: var(--herb-600); }
 .section-dark .section-intro { color: var(--sage-200); }
+
+/* PA compliance sits over the field photo — the section is about the fields. */
+#quality {
+  background:
+    linear-gradient(180deg, rgba(27, 42, 25, .88), rgba(27, 42, 25, .95)),
+    url("../assets/img/field.jpg") center 35% / cover no-repeat,
+    var(--herb-900);
+}
 
 .section-head {
   max-width: 42rem;
@@ -309,22 +296,22 @@ em { font-style: italic; color: var(--herb-600); }
   gap: 1.5rem;
 }
 
-.brand { display: flex; align-items: center; gap: .75rem; flex: none; }
-.brand-mark { width: 38px; height: 38px; color: var(--herb-700); flex: none; }
-.brand-text { display: flex; flex-direction: column; line-height: 1.15; }
-.brand-name {
-  font-family: var(--font-display);
-  font-weight: 600;
-  font-size: 1.125rem;
-  letter-spacing: -.015em;
-  color: var(--herb-900);
+.brand {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .3rem;
+  flex: none;
+  line-height: 1;
 }
+.brand-logo { height: 30px; width: auto; }
 .brand-tag {
-  font-size: .625rem;
-  letter-spacing: .12em;
+  font-size: .5625rem;
+  letter-spacing: .32em;
   text-transform: uppercase;
-  color: var(--ink-mute);
+  color: #8a7a4d;               /* the logo's tagline gold */
   font-weight: 500;
+  padding-left: .1em;
 }
 
 .site-nav { display: flex; align-items: center; gap: 1.75rem; }
@@ -409,29 +396,17 @@ em { font-style: italic; color: var(--herb-600); }
   overflow: hidden;
 }
 
-/* Replace the gradient stack with a photo:
-   .hero-bg { background-image: url("../assets/img/hero.jpg"); background-size: cover; } */
 .hero-bg {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(1100px 620px at 78% 12%, rgba(138, 164, 126, .35), transparent 62%),
-    radial-gradient(760px 520px at 8% 92%, rgba(203, 156, 74, .20), transparent 60%),
-    linear-gradient(168deg, #fbf9f4 0%, var(--sand) 55%, #e9e2d2 100%);
-}
-.hero-bg::after {
-  /* Botanical texture — CSS only, no image request. */
-  content: "";
-  position: absolute;
-  inset: 0;
-  background-image:
-    radial-gradient(ellipse 9px 4px at 50% 50%, rgba(51, 86, 47, .16) 0 60%, transparent 62%),
-    radial-gradient(ellipse 7px 3px at 50% 50%, rgba(51, 86, 47, .12) 0 60%, transparent 62%);
-  background-size: 120px 120px, 90px 90px;
-  background-position: 0 0, 45px 60px;
-  opacity: .8;
-  -webkit-mask-image: radial-gradient(120% 90% at 50% 40%, #000 25%, transparent 78%);
-  mask-image: radial-gradient(120% 90% at 50% 40%, #000 25%, transparent 78%);
+    linear-gradient(90deg,
+      rgba(250, 248, 242, .96) 0%,
+      rgba(250, 248, 242, .90) 42%,
+      rgba(250, 248, 242, .55) 62%,
+      rgba(250, 248, 242, 0) 88%),
+    url("../assets/img/hero.jpg") right center / cover no-repeat,
+    var(--sand);
 }
 
 .hero-inner { position: relative; max-width: 54rem; }
@@ -504,7 +479,7 @@ em { font-style: italic; color: var(--herb-600); }
 }
 .stats-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 .stat {
@@ -543,59 +518,47 @@ em { font-style: italic; color: var(--herb-600); }
 
 .about-media { position: relative; }
 
-/* Placeholder photo frames — swap the whole .photo-frame for <img>. */
+/* Photos fill their frame; the frame carries the shape and shadow. */
 .photo-frame {
   position: relative;
+  margin: 0;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
   overflow: hidden;
-  display: flex;
-  align-items: flex-end;
-  padding: 1.25rem;
-  isolation: isolate;
+  background: var(--sand-deep);
 }
-.photo-frame::before {
-  content: "";
+.photo-frame > img {
   position: absolute;
   inset: 0;
-  z-index: -1;
-}
-.photo-note {
-  font-size: var(--fs-micro);
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  font-weight: 600;
-  color: rgba(255, 255, 255, .82);
-  background: rgba(23, 32, 15, .38);
-  -webkit-backdrop-filter: blur(6px);
-  backdrop-filter: blur(6px);
-  padding: .4rem .7rem;
-  border-radius: var(--radius-pill);
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.photo-field {
-  aspect-ratio: 4 / 5;
-  background:
-    linear-gradient(200deg, rgba(85, 129, 76, .95), rgba(27, 42, 25, .95)),
-    var(--herb-700);
-}
-.photo-field::before {
-  background-image:
-    repeating-linear-gradient(112deg, rgba(195, 210, 186, .13) 0 2px, transparent 2px 16px),
-    radial-gradient(circle at 70% 22%, rgba(203, 156, 74, .30), transparent 55%);
+.photo-family { aspect-ratio: 4 / 5; }
+.photo-family > img { object-position: 50% 60%; }
+
+/* A soft caption for the family photo, over a gradient so it reads on any sky. */
+.photo-caption {
+  position: absolute;
+  inset: auto 0 0;
+  padding: 3.5rem 1.5rem 1.35rem;
+  background: linear-gradient(to top, rgba(23, 32, 15, .72), rgba(23, 32, 15, 0));
+  font-family: var(--font-display);
+  font-style: italic;
+  font-size: 1.0625rem;
+  line-height: 1.4;
+  color: var(--cream);
 }
 
-.photo-hands {
+/* Overlaps the sky at the top, so the caption along the bottom stays clear. */
+.photo-leaf {
   position: absolute;
   right: -8%;
-  bottom: -10%;
-  width: 52%;
+  top: -8%;
+  width: 46%;
   aspect-ratio: 1 / 1;
   border: 6px solid var(--bg);
-  background: linear-gradient(150deg, var(--gold), var(--clay));
-}
-.photo-hands::before {
-  background-image: repeating-linear-gradient(45deg, rgba(255,255,255,.14) 0 3px, transparent 3px 12px);
 }
 
 .photo-float { animation: floaty 7s ease-in-out infinite; }
@@ -630,6 +593,19 @@ em { font-style: italic; color: var(--herb-600); }
   transform: rotate(45deg);
 }
 
+.about-mission { margin-top: 1.75rem; color: var(--ink-soft); }
+
+.about-closing {
+  margin-top: 1.75rem;
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--gold);
+  font-family: var(--font-display);
+  font-size: var(--fs-h3);
+  font-style: italic;
+  line-height: 1.4;
+  color: var(--herb-800);
+}
+
 /* ============================ 10. PRODUCTS ============================ */
 .product-grid {
   display: grid;
@@ -652,51 +628,18 @@ em { font-style: italic; color: var(--herb-600); }
   border-color: rgba(65, 107, 58, .25);
 }
 
-/* CSS-drawn product art. Replace with <img> when photos are ready. */
 .product-art {
   aspect-ratio: 16 / 10;
-  position: relative;
   overflow: hidden;
+  background: var(--sand);
 }
-.product-art::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(to top, rgba(23, 32, 15, .22), transparent 55%);
+.product-art img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .6s var(--ease);
 }
-
-.art-leaves {
-  background:
-    radial-gradient(ellipse 26px 11px at 30% 38%, rgba(27, 42, 25, .5) 0 62%, transparent 64%),
-    radial-gradient(ellipse 20px 9px  at 66% 62%, rgba(27, 42, 25, .42) 0 62%, transparent 64%),
-    radial-gradient(ellipse 22px 10px at 82% 28%, rgba(27, 42, 25, .34) 0 62%, transparent 64%),
-    linear-gradient(140deg, var(--sage-400), var(--herb-600) 70%);
-}
-.art-rubbed {
-  background:
-    repeating-linear-gradient(28deg, rgba(27, 42, 25, .30) 0 3px, transparent 3px 11px),
-    repeating-linear-gradient(-52deg, rgba(27, 42, 25, .18) 0 2px, transparent 2px 9px),
-    linear-gradient(160deg, var(--herb-500), var(--herb-700));
-}
-.art-powder {
-  background:
-    radial-gradient(circle at 22% 30%, rgba(255, 255, 255, .22) 0 3px, transparent 4px),
-    radial-gradient(circle at 62% 55%, rgba(255, 255, 255, .18) 0 2px, transparent 3px),
-    radial-gradient(circle at 84% 24%, rgba(255, 255, 255, .16) 0 3px, transparent 4px),
-    linear-gradient(150deg, #6b7f52, #3d4f2c);
-  background-size: 44px 44px, 30px 30px, 56px 56px, 100% 100%;
-}
-.art-oil {
-  background:
-    radial-gradient(circle at 68% 34%, rgba(255, 255, 255, .35), transparent 42%),
-    linear-gradient(155deg, var(--gold), #8a6a22 85%);
-}
-.art-herbs {
-  background:
-    radial-gradient(ellipse 30px 12px at 24% 30%, rgba(203, 156, 74, .55) 0 60%, transparent 62%),
-    radial-gradient(ellipse 24px 10px at 70% 66%, rgba(138, 164, 126, .65) 0 60%, transparent 62%),
-    linear-gradient(135deg, var(--herb-700), #2c3f26);
-}
+.product-card:hover .product-art img { transform: scale(1.04); }
 
 .product-body { padding: 1.5rem 1.5rem 1.75rem; display: flex; flex-direction: column; flex: 1; }
 .product-body > p { color: var(--ink-soft); font-size: .9375rem; line-height: 1.6; }
@@ -717,92 +660,28 @@ em { font-style: italic; color: var(--herb-600); }
   font-weight: 600;
 }
 .spec dd { margin: 0; font-size: .875rem; font-weight: 600; color: var(--herb-800); text-align: right; }
+.spec dd.latin { font-style: italic; }
 
 .product-card-cta {
+  grid-column: 1 / -1;
   background: linear-gradient(155deg, var(--herb-700), var(--herb-900));
   border-color: transparent;
-  justify-content: center;
 }
-.product-card-cta .product-body { padding: 2.25rem 1.75rem; gap: .5rem; }
-.product-card-cta h3 { color: var(--cream); }
-.product-card-cta p { color: var(--sage-200); font-size: .9375rem; margin-bottom: 1.5rem; }
-.product-card-cta .btn-solid { background: var(--cream); color: var(--herb-900); align-self: flex-start; }
+.product-card-cta:hover { transform: translateY(-3px); }
+.product-card-cta .product-body {
+  padding: 2rem 2.25rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.25rem 2rem;
+}
+.product-card-cta h3 { color: var(--cream); margin-bottom: .25rem; }
+.product-card-cta p { color: var(--sage-200); font-size: .9375rem; }
+.product-card-cta .btn-solid { background: var(--cream); color: var(--herb-900); flex: none; }
 .product-card-cta .btn-solid:hover { background: #fff; }
 
 /* ============================ 11. QUALITY ============================ */
-.quality-grid {
-  display: grid;
-  grid-template-columns: .85fr 1.15fr;
-  gap: clamp(2rem, 1rem + 4vw, 4.5rem);
-  align-items: start;
-}
-
-.cert-items { display: grid; gap: .75rem; }
-.cert-items li {
-  display: flex;
-  align-items: center;
-  gap: .875rem;
-  padding: .875rem 1rem;
-  background: var(--surface);
-  border: 1px solid var(--border-soft);
-  border-radius: var(--radius);
-  font-size: .9375rem;
-  color: var(--ink-soft);
-  transition: transform .25s var(--ease), box-shadow .25s var(--ease);
-}
-.cert-items li:hover { transform: translateX(4px); box-shadow: var(--shadow-sm); }
-
-.cert-chip {
-  flex: none;
-  min-width: 3.25rem;
-  text-align: center;
-  padding: .3rem .5rem;
-  font-size: .625rem;
-  font-weight: 700;
-  letter-spacing: .08em;
-  color: var(--herb-700);
-  background: rgba(65, 107, 58, .10);
-  border-radius: 6px;
-}
-
-.table-scroll {
-  overflow-x: auto;
-  max-width: 100%;
-  border: 1px solid var(--border-soft);
-  border-radius: var(--radius);
-  background: var(--surface);
-  -webkit-overflow-scrolling: touch;
-}
-
-.spec-table { font-size: .9375rem; min-width: 480px; }
-.spec-table th {
-  text-align: left;
-  font-size: var(--fs-micro);
-  font-weight: 700;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-  color: var(--ink-mute);
-  padding: 1rem 1.25rem;
-  background: rgba(23, 32, 15, .03);
-  border-bottom: 1px solid var(--border);
-  white-space: nowrap;
-}
-.spec-table td {
-  padding: .875rem 1.25rem;
-  border-bottom: 1px solid var(--border-soft);
-  color: var(--ink-soft);
-}
-.spec-table tbody tr:last-child td { border-bottom: 0; }
-.spec-table tbody tr:hover td { background: rgba(65, 107, 58, .035); }
-.spec-table td:first-child { font-weight: 600; color: var(--ink); }
-.spec-table td:last-child {
-  font-family: ui-monospace, SFMono-Regular, "Cascadia Mono", Menlo, monospace;
-  font-size: .8125rem;
-  color: var(--ink-mute);
-  white-space: nowrap;
-}
-
-/* ============================ 12. PROCESS ============================ */
 .process-steps {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr));
@@ -813,11 +692,11 @@ em { font-style: italic; color: var(--herb-600); }
   overflow: hidden;
 }
 .process-steps li {
-  background: var(--herb-900);
+  background: rgba(27, 42, 25, .86);
   padding: 2rem 1.5rem;
   transition: background-color .35s var(--ease);
 }
-.process-steps li:hover { background: #223019; }
+.process-steps li:hover { background: rgba(34, 48, 25, .92); }
 .step-n {
   display: block;
   font-family: var(--font-display);
@@ -830,62 +709,7 @@ em { font-style: italic; color: var(--herb-600); }
 .process-steps h3 { font-size: 1.125rem; margin-bottom: .4rem; }
 .process-steps p { font-size: .875rem; color: var(--sage-200); line-height: 1.55; margin: 0; }
 
-/* ============================ 13. PACKAGING ============================ */
-.packaging-grid {
-  display: grid;
-  grid-template-columns: 1.15fr .85fr;
-  gap: clamp(2.5rem, 1rem + 5vw, 5rem);
-  align-items: center;
-}
-
-.pack-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr));
-  gap: 1rem;
-  margin-top: 2rem;
-}
-.pack-card {
-  padding: 1.5rem 1.375rem;
-  background: var(--surface);
-  border: 1px solid var(--border-soft);
-  border-radius: var(--radius);
-  border-left: 3px solid var(--sage-400);
-  transition: border-left-color .3s var(--ease), transform .3s var(--ease), box-shadow .3s var(--ease);
-}
-.pack-card:hover {
-  border-left-color: var(--herb-600);
-  transform: translateY(-3px);
-  box-shadow: var(--shadow-sm);
-}
-.pack-card h3 { font-size: 1.0625rem; margin-bottom: .35rem; }
-.pack-card p { font-size: .875rem; color: var(--ink-soft); margin: 0; line-height: 1.55; }
-
-.incoterms {
-  margin-top: 2rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--border);
-  font-size: .9375rem;
-  color: var(--ink-soft);
-}
-.incoterms strong {
-  color: var(--herb-800);
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  font-size: var(--fs-micro);
-  margin-right: .75rem;
-}
-
-.photo-pack {
-  aspect-ratio: 3 / 4;
-  background: linear-gradient(165deg, #4c6142, var(--herb-900));
-}
-.photo-pack::before {
-  background-image:
-    repeating-linear-gradient(0deg,  rgba(203, 156, 74, .16) 0 1px, transparent 1px 46px),
-    repeating-linear-gradient(90deg, rgba(203, 156, 74, .16) 0 1px, transparent 1px 62px);
-}
-
-/* ============================ 14. CONTACT / FORM ============================ */
+/* ============================ 12. CONTACT / FORM ============================ */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1.1fr;
@@ -986,7 +810,7 @@ em { font-style: italic; color: var(--herb-600); }
 }
 .form-status.is-error { color: var(--clay); }
 
-/* ============================ 15. FOOTER ============================ */
+/* ============================ 13. FOOTER ============================ */
 .site-footer {
   background: var(--herb-900);
   color: var(--sage-200);
@@ -998,7 +822,7 @@ em { font-style: italic; color: var(--herb-600); }
   gap: 2.5rem;
   padding-bottom: 2.5rem;
 }
-.footer-brand .brand-name { color: var(--cream); font-size: 1.25rem; display: block; margin-bottom: .625rem; }
+.footer-logo { width: 180px; height: auto; margin-bottom: 1.25rem; }
 .footer-brand p { font-size: .875rem; line-height: 1.6; max-width: 26rem; color: var(--sage-200); opacity: .85; }
 
 .footer-nav, .footer-lang { display: flex; flex-direction: column; gap: .625rem; }
@@ -1020,9 +844,8 @@ em { font-style: italic; color: var(--herb-600); }
   border-top: 1px solid rgba(195, 210, 186, .14);
 }
 .footer-bottom p { margin: 0; font-size: var(--fs-micro); opacity: .65; }
-.footer-legal { font-style: italic; }
 
-/* ============================ 16. UTILITIES ============================ */
+/* ============================ 14. UTILITIES ============================ */
 .to-top {
   position: fixed;
   right: clamp(1rem, .5rem + 1.5vw, 2rem);
@@ -1058,7 +881,7 @@ em { font-style: italic; color: var(--herb-600); }
 /* Language swap fade — set by JS during a language change. */
 .lang-fading { opacity: .35; transition: opacity .15s linear; }
 
-/* ============================ 17. MOTION ============================ */
+/* ============================ 15. MOTION ============================ */
 .reveal {
   opacity: 0;
   transform: translateY(24px);
@@ -1076,17 +899,12 @@ em { font-style: italic; color: var(--herb-600); }
   .reveal { opacity: 1; transform: none; }
 }
 
-/* ============================ 18. RESPONSIVE ============================ */
+/* ============================ 16. RESPONSIVE ============================ */
 @media (max-width: 1024px) {
   .about-grid,
-  .packaging-grid,
-  .contact-grid,
-  .quality-grid { grid-template-columns: 1fr; }
+  .contact-grid { grid-template-columns: 1fr; }
 
   .about-media { max-width: 30rem; }
-  .packaging-media { max-width: 24rem; margin-inline: auto; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); row-gap: 2rem; }
-  .stat:nth-child(odd) { border-left: 0; }
 }
 
 @media (max-width: 860px) {
@@ -1095,6 +913,14 @@ em { font-style: italic; color: var(--herb-600); }
   /* While the menu is open the bar is solid, and keeps its full height so it
      meets the top of the panel exactly (the panel starts at --header-h). */
   .site-header.is-open { height: var(--header-h); }
+
+  /* Text spans the full width on smaller screens, so wash the whole photo. */
+  .hero-bg {
+    background:
+      linear-gradient(rgba(250, 248, 242, .88), rgba(250, 248, 242, .80)),
+      url("../assets/img/hero.jpg") 70% center / cover no-repeat,
+      var(--sand);
+  }
 
   .site-header.is-open::before {
     background: var(--bg);
@@ -1148,17 +974,18 @@ em { font-style: italic; color: var(--herb-600); }
 
   .brand-tag { display: none; }
 
-  .stats-grid { grid-template-columns: 1fr 1fr; gap: 1.75rem 1rem; }
-  .stat { border-left: 0; }
+  .stats-grid { gap: 1rem; }
+  .stat { padding-inline: 0; }
+  .product-card-cta .product-body { padding: 1.75rem 1.5rem; }
 
-  .photo-hands { display: none; }
+  .photo-leaf { display: none; }
 
   .field-row { grid-template-columns: 1fr; gap: 0; }
   .contact-list li { grid-template-columns: 1fr; gap: .25rem; }
   .footer-inner { grid-template-columns: 1fr; gap: 2rem; }
 }
 
-/* ============================ 19. PRINT ============================ */
+/* ============================ 17. PRINT ============================ */
 @media print {
   .site-header, .to-top, .scroll-hint, .contact-form-wrap, .noscript-bar { display: none !important; }
   .reveal { opacity: 1 !important; transform: none !important; }

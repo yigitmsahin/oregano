@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
-  <rect width="40" height="40" rx="9" fill="#22331f"/>
-  <g stroke="#c3d2ba" fill="#c3d2ba">
-    <path d="M20 7C12.5 11.2 8.5 17.6 8.5 24c0 4.8 3.2 8.8 8 8.8" fill="none" stroke-width="2" stroke-linecap="round"/>
-    <path d="M20 33c0-7.2 4-14.4 11.2-18.4" fill="none" stroke-width="2" stroke-linecap="round"/>
-    <ellipse cx="13.5" cy="16" rx="4.2" ry="2.7" transform="rotate(-32 13.5 16)" opacity=".9"/>
-    <ellipse cx="11" cy="23.5" rx="4.2" ry="2.7" transform="rotate(-12 11 23.5)" opacity=".65"/>
-    <ellipse cx="27" cy="16.5" rx="4.2" ry="2.7" transform="rotate(28 27 16.5)" opacity=".9"/>
-    <ellipse cx="29" cy="24" rx="3.7" ry="2.4" transform="rotate(12 29 24)" opacity=".65"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="525 252 341 341"><rect x="525" y="252" width="341" height="341" rx="68" fill="#faf8f2"/><path fill="#3e5233" d="M821.4 317Q816.8 317.1 807.3 319.6Q797.8 322.1 793.7 324.7Q787.7 328.8 785.7 340.4Q783.6 352.1 783.6 370V540.4H769.4L628.3 349.9V470Q628.3 490.2 630.8 501Q633.4 511.9 638.6 516.5Q642.4 520.1 654.2 523.2Q666 526.3 669.8 526.5V538.1H574.3V526.5Q578.7 526.1 589.2 523.3Q599.7 520.4 602.4 518.1Q608.1 513.5 610.2 504.1Q612.4 494.6 612.4 471.8V357.2Q612.4 349.6 609.7 342.1Q607.1 334.5 602.7 330.4Q596.8 325 586.7 321.2Q576.6 317.3 570.4 317V305.3H636.8L767.7 482.8V372.1Q767.7 351.8 765.1 340.8Q762.5 329.9 757.6 326.3Q753 323.2 742.5 320.2Q732.1 317.3 726.7 317V305.3H821.4Z"/></svg>

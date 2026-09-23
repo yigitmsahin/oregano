@@ -12,191 +12,115 @@
 
 
 # ------------------------------------------------------------- Browser-Tab
-meta.title       = Ägäis Oregano — Premium-Oregano-Exporteur aus der Türkei
-meta.description = Erzeuger und Exporteur von türkischem Premium-Oregano — getrocknete Blätter, gerebelt, gemahlen und ätherisches Öl. ISO 22000, HACCP und Bio-zertifiziert. Lieferung in über 40 Länder.
-meta.ogTitle     = Ägäis Oregano — Premium-Oregano-Exporteur
+meta.title       = Nilc Tarım — Türkischer Oregano, Salbei & ätherische Öle
+meta.description = Nilc Tarım handelt türkischen Oregano (Origanum onites), Salbei und wasserdampfdestillierte ätherische Öle aus der Region Denizli — 45 Jahre Erfahrung, bis zu 3.000 t pro Saison, PA-Risiko an der Quelle gesteuert.
+meta.ogTitle     = Nilc Tarım — Türkischer Oregano aus der Region Denizli
 
 a11y.skip = Zum Inhalt springen
 
 
 # --------------------------------------------------------- Marke & Navigation
-brand.name    = Ägäis Oregano
-brand.tagline = Oregano-Exporteur · seit 1998
+brand.tagline = Kräuter & Gewürze
 
-nav.about     = Über uns
-nav.products  = Produkte
-nav.quality   = Qualität
-nav.process   = Ablauf
-nav.packaging = Verpackung
-nav.contact   = Kontakt
-nav.cta       = Angebot anfordern
+nav.about    = Über uns
+nav.products = Produkte
+nav.quality  = Qualität
+nav.contact  = Kontakt
+nav.cta      = Angebot anfordern
 
 
-# ------------------------------------------------------------------- Startbild
-hero.eyebrow      = Origanum onites · Ägäisches Hochland, Türkei
-hero.title        = Der Oregano, mit dem<br><em>die Welt kocht.</em>
-hero.lead         = Wir bauen türkischen Premium-Oregano an, trocknen ihn und exportieren ihn als Schüttware — Blätter, gerebelt, gemahlen und ätherisches Öl — mit lückenloser Rückverfolgbarkeit vom Feld bis zum Container.
+# ------------------------------------------------------------------ Startbereich
+hero.eyebrow      = Origanum onites · Denizli, Türkei
+hero.title        = Vier Jahrzehnte<br><em>in jedem Blatt.</em>
+hero.lead         = Seit 45 Jahren liegen unsere Wurzeln im Oregano. Wir liefern türkischen Oregano, Salbei und ätherische Öle aus der Region Denizli — sauber, gleichbleibend und pünktlich.
 hero.ctaPrimary   = Angebot anfordern
 hero.ctaSecondary = Produkte ansehen
-hero.badge1       = ISO 22000
-hero.badge2       = HACCP
-hero.badge3       = EU / USDA Bio
-hero.badge4       = Halal & Koscher
+hero.badge1       = Origanum onites
+hero.badge2       = Türkischer Salbei
+hero.badge3       = Ätherische Öle
+hero.badge4       = Muster auf Anfrage
 
 
-# ----------------------------------------------------------------- Kennzahlen
-stats.years     = Jahre Exporterfahrung
-stats.countries = Belieferte Länder
-stats.tons      = Tonnen Versand / Jahr
-stats.traceable = Rückverfolgbarkeit
+# ------------------------------------------------------------------ Kennzahlen
+stats.years    = Jahre mit Oregano
+stats.tons     = Tonnen pro Saison, max.
+stats.products = Produktlinien
 
 
-# ------------------------------------------------------------------- Über uns
+# ------------------------------------------------------------------ Über uns
 about.eyebrow    = Wer wir sind
-about.title      = Drei Generationen, eine Kultur
-about.lead       = Unsere Familie baut seit 1998 Oregano an den Kalksteinhängen über der Ägäis an. Heute arbeiten wir mit 180 Vertragsanbauern der Region zusammen und betreiben eine eigene Trocknungs-, Reinigungs- und Verpackungsanlage.
-about.body       = Für Einkäufer bedeutet das eines: Der Oregano in Ihrem Container wurde von denselben Menschen geerntet, getrocknet und geprüft, die ihn Ihnen verkauft haben. Keine Zwischenhändler, keine Vermischung unbekannter Partien, keine Überraschungen beim Zoll.
-about.point1     = Eigene Felder und Vertragsanbauer in einem gemeinsamen Anbauprogramm
-about.point2     = Eigenes Labor: Feuchte, Asche, Pestizide und Mikrobiologie
-about.point3     = Dampfsterilisation ohne Bestrahlung und ohne ETO
-about.point4     = Exportdokumente durchgängig aus einer Hand
-about.photoNote  = Foto: Ernte im ägäischen Hochland
-about.photoNote2 = Foto: Verlesestraße
+about.title      = Unsere Wurzeln liegen im Oregano
+about.lead       = Seit 45 Jahren liegen unsere Wurzeln im Oregano. Von den Feldern der Region Denizli — einem der besten Anbaugebiete der Türkei für aromatische Kräuter — sind wir zu einem der etabliertesten Kräuterhändler der Region gewachsen.
+about.body       = Wir verkaufen Ihnen keine hochmoderne Anlage. Wir verkaufen Ihnen 45 Jahre Wissen über diese Pflanze: welche Felder das beste Blatt liefern, wie man es richtig trocknet und wie man es sauber, gleichbleibend und pünktlich liefert. Was wir mitbringen, sind Erfahrung, Zuverlässigkeit und ein Versprechen, für das wir bei jeder Lieferung einstehen.
+about.point1     = 45 Jahre Oregano aus der Region Denizli
+about.point2     = Bis zu 3.000 t Rohware pro Saison
+about.point3     = PA-Risiko Feld für Feld vor der Ernte bewertet
+about.point4     = Saubere, gleichbleibende und pünktliche Lieferung
+about.mission    = Jetzt bringen wir diese Erfahrung in die Welt. Unser Ziel ist einfach: langfristige Partnerschaften aufbauen, zu einem stärkeren Unternehmen wachsen und den Erzeugern, mit denen wir arbeiten, und den Einkäufern, die wir beliefern, bessere Möglichkeiten bieten.
+about.closing    = Sie suchen einen Lieferanten, der Ihre Bestellung behandelt, als stünde sein eigener Name darauf? Dann sind Sie bei uns richtig.
+about.familyCaption = Die nächste Generation unserer Familie — mitten im Oregano.
+about.familyAlt     = Ein kleines Mädchen aus der Familie in einem blühenden Oreganofeld
+about.leafAlt       = Getrocknetes Oreganoblatt auf einem Leinensack
 
 
-# ------------------------------------------------------------------- Produkte
-products.eyebrow = Was wir liefern
+# ------------------------------------------------------------------ Produkte
+products.eyebrow = Unser Angebot
 products.title   = Unsere Produkte
-products.intro   = Alle Qualitäten sind als Schüttware und als Handelsmarke im Einzelhandelsgebinde erhältlich. Sonderschnitte und Maschenweiten nach Ihrer Spezifikation.
+products.intro   = Aromatische Kräuter aus den traditionellen Anbaugebieten der Türkei und die ätherischen Öle, die wir daraus destillieren.
 
-products.label.cut       = Schnitt
-products.label.purity    = Reinheit
-products.label.moisture  = Feuchte
-products.label.mesh      = Maschenweite
-products.label.carvacrol = Carvacrol
-products.label.method    = Verfahren
-products.label.pack      = Gebinde
-products.label.range     = Auswahl
+products.label.botanical = Botanisch
+products.label.form      = Form
 products.label.origin    = Herkunft
-products.label.moq       = Mindestmenge
+products.label.oils      = Öle
+products.label.method    = Verfahren
+products.label.source    = Rohstoff
 
-products.p1.name     = Getrocknete Oreganoblätter
-products.p1.desc     = Ganze und geschnittene Blätter, von Hand geerntet und im Schatten getrocknet, um Farbe und ätherisches Öl zu erhalten.
-products.p1.cut      = 2–4 mm / 4–8 mm
-products.p1.purity   = min. 99,5 %
-products.p1.moisture = ≤ 10 %
+products.p1.name      = Oregano
+products.p1.desc      = Türkischer Oregano, getrocknetes Blatt. Angebaut und verarbeitet in der Region Denizli, bekannt für ihre hohe aromatische Qualität.
+products.p1.botanical = Origanum onites
+products.p1.form      = Getrocknetes Blatt
+products.p1.origin    = Denizli, Türkei
 
-products.p2.name     = Gerebelter Oregano
-products.p2.desc     = Stängelfrei gerebelt, weich und locker in der Textur — der Standard für Pizza- und Gewürzmischungen.
-products.p2.cut      = Gerebelt, stängelfrei
-products.p2.purity   = min. 99,9 %
-products.p2.moisture = ≤ 9 %
+products.p2.name   = Türkischer Salbei
+products.p2.desc   = Getrocknetes Blatt aus den traditionellen Anbaugebieten Anatoliens.
+products.p2.form   = Getrocknetes Blatt
+products.p2.origin = Anatolien, Türkei
 
-products.p3.name     = Oregano gemahlen
-products.p3.desc     = Nach Ihrer Maschenweite vermahlen für Würzmischungen, Saucen und Fertigprodukte.
-products.p3.mesh     = 30 / 60 / 80
-products.p3.purity   = 100 %
-products.p3.moisture = ≤ 8 %
+products.p3.name   = Ätherische Öle
+products.p3.desc   = Wasserdampfdestilliertes Oreganoöl und Salbeiöl, hergestellt aus unseren eigenen Kräutern.
+products.p3.oils   = Oregano · Salbei
+products.p3.method = Wasserdampfdestillation
+products.p3.source = Eigene Kräuter
 
-products.p4.name      = Ätherisches Oreganoöl
-products.p4.desc      = Wasserdampfdestilliert aus eigenem Blattgut, mit Analysenzertifikat für jede Charge.
-products.p4.carvacrol = 70–85 %
-products.p4.method    = Wasserdampfdestillation
-products.p4.pack      = 1 / 5 / 25 kg
-
-products.p5.name   = Weitere mediterrane Kräuter
-products.p5.desc   = Lorbeer, Thymian, Salbei und Rosmarin aus derselben Anbauregion und demselben Qualitätsprogramm.
-products.p5.range  = Ganz / geschnitten / gemahlen
-products.p5.origin = Ägäisregion
-products.p5.moq    = 1 Tonne
-
-products.custom.title = Sie brauchen eine eigene Spezifikation?
-products.custom.desc  = Nennen Sie uns Schnitt, Reinheit, Verpackung und Bestimmungshafen. Wir senden Ihnen innerhalb von drei Werktagen ein Datenblatt und ein Muster.
-products.custom.cta   = Mit unserem Exportteam sprechen
+products.custom.title = Spezifikationen & Muster
+products.custom.desc  = Chargenspezifikationen und Muster erhalten Sie auf Anfrage.
+products.custom.cta   = Muster anfordern
 
 
-# ------------------------------------------------------------------- Qualität
-quality.eyebrow = Standards
-quality.title   = Qualität & Zertifizierung
-quality.intro   = Jede Charge wird vor Verlassen des Werks geprüft und mit vollständigem Dokumentensatz versandt.
+# ------------------------------------------------------------------ Qualität
+quality.eyebrow = PA-Konformität
+quality.title   = PA-Risiko an der Quelle gesteuert
+quality.intro   = Jede Saison handeln wir bis zu 3.000 t Rohware. Diese Menge und unsere Erfahrung auf dem Feld ermöglichen es uns, das Risiko durch Pyrrolizidinalkaloide (PA) bereits an der Quelle zu steuern.
 
-quality.certsTitle = Zertifizierungen
-quality.cert1      = ISO 22000 Lebensmittelsicherheits-Management
-quality.cert2      = HACCP-Gefahrenanalyse
-quality.cert3      = EU-Bio- und USDA-NOP-zertifizierte Linien
-quality.cert4      = GLOBALG.A.P.-Vertragsanbauer
-quality.cert5      = Halal- und Koscher-zertifiziert
-quality.cert6      = Akkreditierte Laboranalysen durch Dritte
-quality.certNote   = Zertifikatskopien liegen jedem Angebot bei. Platzhalter — durch Ihre tatsächliche Zertifikatsliste und PDFs ersetzen.
-
-quality.specTitle = Typische Spezifikation
-quality.th1       = Parameter
-quality.th2       = Standard
-quality.th3       = Methode
-quality.r1        = Feuchte
-quality.r2        = Gesamtasche
-quality.r3        = Säureunlösliche Asche
-quality.r4        = Ätherisches Öl
-quality.r5        = Fremdbestandteile
-quality.r6        = Salmonellen
-quality.r6v       = In 25 g nicht nachweisbar
-quality.r7        = Pestizidrückstände
-quality.r7v       = EU-MRL-konform
-quality.specNote  = Richtwerte. Die endgültige Spezifikation wird vertraglich vereinbart.
+quality.s1.t = Feldbewertung
+quality.s1.d = Vor der Ernte begutachten wir jedes Feld und bewerten sein PA-Risiko.
+quality.s2.t = Getrennte Verarbeitung
+quality.s2.d = Ware von Feldern mit geringem Risiko wird getrennt verarbeitet.
+quality.s3.t = Analyse
+quality.s3.d = Nach der Verarbeitung wird diese Ware erneut geprüft.
 
 
-# --------------------------------------------------------------------- Ablauf
-process.eyebrow = So arbeiten wir
-process.title   = Vom Feld in den Container
-process.intro   = Sieben kontrollierte Schritte, eine rückverfolgbare Chargennummer.
-
-process.s1.t = Ernte
-process.s1.d = Schnitt bei höchstem Carvacrolgehalt zwischen Juni und August.
-process.s2.t = Trocknung
-process.s2.d = Schattentrocknung bei kontrollierter Luftführung für Farbe und Öl.
-process.s3.t = Reinigung
-process.s3.d = Entstielen, Sieben, Schwerkrafttrennung und Metalldetektion.
-process.s4.t = Sterilisation
-process.s4.d = Ausschließlich Sattdampf — keine Bestrahlung, kein Ethylenoxid.
-process.s5.t = Labor
-process.s5.d = Feuchte, Asche, Öl, Mikrobiologie und Rückstände je Charge.
-process.s6.t = Abpackung
-process.s6.d = Lebensmittelechte Innenbeutel, versiegelt und palettiert unter Ihrer Marke.
-process.s7.t = Versand
-process.s7.d = Verladung in Izmir mit vollständigen Papieren und Chargenrückverfolgung.
-
-
-# ------------------------------------------------------------------ Verpackung
-packaging.eyebrow   = Logistik
-packaging.title     = Verpackung & Versand
-packaging.lead      = Wir versenden FCL und LCL ab Izmir und Mersin und organisieren Luftfracht für Muster und Eilaufträge.
-packaging.c1.t      = Umkartons
-packaging.c1.d      = 10-kg- und 20-kg-Exportkartons mit lebensmittelechtem PE-Innenbeutel.
-packaging.c2.t      = Ballen & Säcke
-packaging.c2.d      = Pressballen und 25-kg-Mehrlagen-Papiersäcke.
-packaging.c3.t      = Handelsmarke
-packaging.c3.d      = Gläser, Doypacks und Sachets im Einzelhandel, bedruckt mit Ihrem Design.
-packaging.c4.t      = Containerbeladung
-packaging.c4.d      = Bis 12 t im 20'- und 22 t im 40'-HC-Container, palettiert oder lose verladen.
-packaging.incoTitle = Incoterms:
-packaging.incoList  = EXW · FOB · CFR · CIF · DAP
-packaging.photoNote = Foto: palettierte Kartons vor der Verladung
-
-
-# --------------------------------------------------------------------- Kontakt
+# ------------------------------------------------------------------ Kontakt
 contact.eyebrow      = Kontakt aufnehmen
 contact.title        = Angebot anfordern
-contact.lead         = Nennen Sie uns Qualität, Menge und Bestimmungshafen. Sie hören innerhalb eines Werktages von uns.
+contact.lead         = Nennen Sie uns Produkt, Menge und Bestimmungsort. Chargenspezifikationen und Muster erhalten Sie auf Anfrage.
 contact.emailLabel   = E-Mail
-contact.phoneLabel   = Telefon
-contact.waLabel      = WhatsApp
+contact.companyLabel = Firma
 contact.addressLabel = Adresse
-contact.address      = Organize Sanayi Bölgesi, 1. Cadde No: 00, Denizli, Türkei
-contact.hoursLabel   = Öffnungszeiten
-contact.hours        = Mo–Fr, 09:00–18:00 Uhr (GMT+3)
+contact.address      = Güzelbahçe, İzmir, Türkei
 
 
-# ------------------------------------------------------------------------ Formular
+# ------------------------------------------------------------------ Formular
 form.name       = Name
 form.company    = Firma
 form.email      = E-Mail
@@ -217,7 +141,7 @@ form.statusInvalid = Bitte prüfen Sie die markierten Felder.
 form.statusSent    = Ihr E-Mail-Programm sollte sich jetzt geöffnet haben. Falls nicht, schreiben Sie uns bitte direkt.
 
 
-# --------------------------------------------------------------------- Fußzeile
-footer.blurb  = Erzeuger, Verarbeiter und Exporteur mediterraner Kräuter aus der Ägäisregion der Türkei.
-footer.rights = © 2026 Ägäis Oregano. Alle Rechte vorbehalten.
-footer.legal  = Platzhalter-Firmenangaben — vor dem Livegang ersetzen.
+# ------------------------------------------------------------------ Fußzeile
+footer.blurb  = Oregano, Salbei und ätherische Öle aus der Region Denizli in der Türkei — seit 45 Jahren im Kräuterhandel.
+footer.rights = © 2026 Nilc Tarım. Alle Rechte vorbehalten.
+footer.legal  = Nilc Tarım Ürünleri San. ve Tic. Ltd. Şti. · Güzelbahçe, İzmir, Türkei

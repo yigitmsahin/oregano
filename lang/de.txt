@@ -44,22 +44,21 @@ hero.badge4       = Muster auf Anfrage
 # ------------------------------------------------------------------ Kennzahlen
 stats.years    = Jahre mit Oregano
 stats.tons     = Tonnen pro Saison, max.
-stats.products = Produktlinien
 
 
 # ------------------------------------------------------------------ Über uns
 about.eyebrow    = Wer wir sind
 about.title      = Unsere Wurzeln liegen im Oregano
 about.lead       = Seit 45 Jahren liegen unsere Wurzeln im Oregano. Von den Feldern der Region Denizli — einem der besten Anbaugebiete der Türkei für aromatische Kräuter — sind wir zu einem der etabliertesten Kräuterhändler der Region gewachsen.
-about.body       = Wir verkaufen Ihnen keine hochmoderne Anlage. Wir verkaufen Ihnen 45 Jahre Wissen über diese Pflanze: welche Felder das beste Blatt liefern, wie man es richtig trocknet und wie man es sauber, gleichbleibend und pünktlich liefert. Was wir mitbringen, sind Erfahrung, Zuverlässigkeit und ein Versprechen, für das wir bei jeder Lieferung einstehen.
+about.body       = Wir verkaufen Ihnen 45 Jahre Wissen über diese Pflanze: welche Felder die beste Qualität liefern, wie man sie verarbeitet und wie man sie sauber, gleichbleibend und pünktlich liefert. Was wir mitbringen, sind Erfahrung, Zuverlässigkeit und ein Versprechen, für das wir bei jeder Lieferung einstehen.
 about.point1     = 45 Jahre Oregano aus der Region Denizli
 about.point2     = Bis zu 3.000 t Rohware pro Saison
 about.point3     = PA-Risiko Feld für Feld vor der Ernte bewertet
 about.point4     = Saubere, gleichbleibende und pünktliche Lieferung
 about.mission    = Jetzt bringen wir diese Erfahrung in die Welt. Unser Ziel ist einfach: langfristige Partnerschaften aufbauen, zu einem stärkeren Unternehmen wachsen und den Erzeugern, mit denen wir arbeiten, und den Einkäufern, die wir beliefern, bessere Möglichkeiten bieten.
 about.closing    = Sie suchen einen Lieferanten, der Ihre Bestellung behandelt, als stünde sein eigener Name darauf? Dann sind Sie bei uns richtig.
-about.familyCaption = Die nächste Generation unserer Familie — mitten im Oregano.
-about.familyAlt     = Ein kleines Mädchen aus der Familie in einem blühenden Oreganofeld
+about.familyCaption = Nil Gül · 2019 — Die nächste Generation unseres Familienunternehmens
+about.familyAlt     = Nil Gül in einem blühenden Oreganofeld, 2019
 about.leafAlt       = Getrocknetes Oreganoblatt auf einem Leinensack
 
 

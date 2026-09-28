@@ -47,22 +47,21 @@ hero.badge4       = Samples on request
 # --------------------------------------------------------------------- stats
 stats.years    = Years in oregano
 stats.tons     = MT per season, max.
-stats.products = Product lines
 
 
 # --------------------------------------------------------------------- about
 about.eyebrow    = Who we are
 about.title      = Our roots are in oregano
 about.lead       = For 45 years, our roots have been in oregano. From the fields of the Denizli region — one of Türkiye's finest growing areas for aromatic herbs — we have grown into one of the region's most established herb traders.
-about.body       = We don't sell you a state-of-the-art facility. We sell you 45 years of knowing this crop: which fields yield the best leaf, how to dry it right, and how to deliver it clean, consistent, and on time. What we bring is experience, reliability, and a commitment we stand behind on every shipment.
+about.body       = We sell you 45 years of knowing this crop: which fields yield the best quality, how to process it, and how to deliver it clean, consistent, and on time. What we bring is experience, reliability, and a commitment we stand behind on every shipment.
 about.point1     = 45 years in oregano, from the Denizli region
 about.point2     = Up to 3,000 MT of raw material traded every season
 about.point3     = PA risk assessed field by field, before harvest
 about.point4     = Clean, consistent, on-time delivery
 about.mission    = Now we're taking that experience to the world. Our goal is simple: to build long-term partnerships, grow into a stronger operation, and offer better opportunities to the growers we work with and the buyers we serve.
 about.closing    = If you're looking for a supplier who treats your order like their own name is on it — that's us.
-about.familyCaption = The next generation of our family — among the oregano.
-about.familyAlt     = A young girl from the family standing in a flowering oregano field
+about.familyCaption = Nil Gül · 2019 — Next generation of our family business
+about.familyAlt     = Nil Gül in a flowering oregano field, 2019
 about.leafAlt       = Dried oregano leaf on a linen sack
 
 

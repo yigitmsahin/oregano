@@ -99,7 +99,7 @@ below is still open or placeholder:
 |---|---|
 | All copy | `lang/*.txt` |
 | Email, company name, address | `index.html` → contact section and schema.org block, and `lang/*.txt` |
-| Statistics (45 years, 3,000 MT, 3 product lines) | `index.html` → `data-count` attributes |
+| Statistics (45 years, 3,000 MT) | `index.html` → `data-count` attributes |
 | Phone / WhatsApp / office hours | Not supplied yet — add a row to `.contact-list` in `index.html` plus a label key in each `lang/*.txt` |
 | Photos | `assets/img/` — see [the guide there](assets/img/README.md) |
 | Logo | `assets/logo.svg` (full), `logo-light.svg` (footer), `logo-wordmark.svg` (header), `favicon.svg`, `logo.png` — all built from `assets/img/nilc-logo.pdf` |

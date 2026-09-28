@@ -44,22 +44,21 @@ hero.badge4       = Talep üzerine numune
 # ------------------------------------------------------------------ rakamlar
 stats.years    = Yıllık kekik tecrübesi
 stats.tons     = Tona kadar sezonluk hacim
-stats.products = Ürün grubu
 
 
 # ------------------------------------------------------------------ hakkımızda
 about.eyebrow    = Biz kimiz
 about.title      = Köklerimiz kekikte
 about.lead       = 45 yıldır köklerimiz kekikte. Türkiye'nin aromatik bitkiler için en iyi yetiştirme alanlarından biri olan Denizli yöresinin tarlalarından yola çıktık ve bölgenin en köklü bitki tüccarlarından biri haline geldik.
-about.body       = Size son teknoloji bir tesis satmıyoruz. Size bu bitkiyi 45 yıldır tanımanın birikimini sunuyoruz: hangi tarlanın en iyi yaprağı verdiğini, nasıl doğru kurutulacağını, nasıl temiz, istikrarlı ve zamanında teslim edileceğini. Getirdiğimiz şey tecrübe, güvenilirlik ve her sevkiyatın arkasında durduğumuz bir taahhüttür.
+about.body       = Size bu bitkiyi 45 yıldır tanımanın birikimini sunuyoruz: hangi tarlanın en iyi kaliteyi verdiğini, nasıl işleneceğini ve nasıl temiz, istikrarlı ve zamanında teslim edileceğini. Getirdiğimiz şey tecrübe, güvenilirlik ve her sevkiyatın arkasında durduğumuz bir taahhüttür.
 about.point1     = Denizli yöresinde 45 yıllık kekik tecrübesi
 about.point2     = Her sezon 3.000 tona kadar hammadde ticareti
 about.point3     = Hasattan önce tarla tarla PA risk değerlendirmesi
 about.point4     = Temiz, istikrarlı ve zamanında teslimat
 about.mission    = Şimdi bu tecrübeyi dünyaya taşıyoruz. Amacımız basit: uzun soluklu ortaklıklar kurmak, daha güçlü bir yapıya kavuşmak ve birlikte çalıştığımız üreticilere ve hizmet verdiğimiz alıcılara daha iyi fırsatlar sunmak.
 about.closing    = Siparişinize kendi adı üzerindeymiş gibi sahip çıkan bir tedarikçi arıyorsanız — o biziz.
-about.familyCaption = Ailemizin yeni nesli — kekiklerin arasında.
-about.familyAlt     = Aileden küçük bir kız, çiçek açmış bir kekik tarlasında
+about.familyCaption = Nil Gül · 2019 — Aile şirketimizin yeni nesli
+about.familyAlt     = Nil Gül, çiçek açmış bir kekik tarlasında, 2019
 about.leafAlt       = Keten çuval üzerinde kuru kekik yaprağı
 
 

@@ -11,4 +11,4 @@ Disallow: /
 
 # Allow: /
 
-Sitemap: https://yigitmsahin.github.io/oregano/sitemap.xml
+Sitemap: https://nilc.com.tr/sitemap.xml

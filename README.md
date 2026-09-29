@@ -22,8 +22,9 @@ lang/de.txt         German
 assets/             Logo files, favicon, home-screen icon
 assets/img/         Drop customer photos here (see the README inside)
 .nojekyll           Tells GitHub Pages to serve files as-is
-robots.txt          Update the domain before launch
-sitemap.xml         Update the domain before launch
+CNAME               Custom domain for GitHub Pages (nilc.com.tr)
+robots.txt          Crawler rules — still in preview mode, see the file
+sitemap.xml         Page list for search engines
 ```
 
 ---
@@ -103,7 +104,6 @@ below is still open or placeholder:
 | Phone / WhatsApp / office hours | Not supplied yet — add a row to `.contact-list` in `index.html` plus a label key in each `lang/*.txt` |
 | Photos | `assets/img/` — see [the guide there](assets/img/README.md) |
 | Logo | `assets/logo.svg` (full), `logo-light.svg` (footer), `logo-wordmark.svg` (header), `favicon.svg`, `logo.png` — all built from `assets/img/nilc-logo.pdf` |
-| Domain in `robots.txt`, `sitemap.xml`, and the `og:`/`canonical` tags | as listed |
 
 ### Changing the colours
 

@@ -232,7 +232,7 @@
 
     function sendByMail(data) {
       /* Recipient comes from the contact list, so it lives in exactly one place. */
-      var to = ($('[data-contact="email"]').attr("href") || "mailto:sales@nilc.com")
+      var to = ($('[data-contact="email"]').attr("href") || "mailto:info@nilc.com.tr")
                  .replace("mailto:", "");
 
       var subject = I18n.t("form.mailSubject") + " — " + data.product + " — " + (data.company || data.name);

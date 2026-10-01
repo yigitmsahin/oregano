@@ -12,9 +12,11 @@
 
 
 # ------------------------------------------------------------- tarayıcı sekmesi
-meta.title       = Nilc Tarım — Türk Kekiği, Adaçayı ve Uçucu Yağlar
-meta.description = Nilc Tarım, Denizli yöresinin Türk kekiğini (Origanum onites), adaçayını ve buhar distilasyonuyla elde edilen uçucu yağlarını tedarik eder — 45 yıllık tecrübe, sezonda 3.000 tona varan hacim, kaynağında yönetilen PA riski.
+meta.title       = Nilc Tarım | Kekik, Adaçayı ve Uçucu Yağ Tedarikçisi
+meta.description = Denizli yöresinden toptan kuru kekik (Origanum onites), adaçayı, kekik yağı ve adaçayı yağı. 45 yıllık tecrübe, PA riski kaynağında kontrol altında.
 meta.ogTitle     = Nilc Tarım — Denizli Yöresinden Türk Kekiği
+meta.keywords    = kekik, kuru kekik, toptan kekik, Türk kekiği, Denizli kekiği, Origanum onites, kekik tedarikçisi, kekik ihracatı, adaçayı, kuru adaçayı, kekik yağı, adaçayı yağı, uçucu yağ, pirolizidin alkaloit, Nilc Tarım
+meta.ogImageAlt  = Kireçtaşı yamaçta çiçek açmış Türk kekiği
 
 a11y.skip = İçeriğe geç
 
@@ -65,7 +67,7 @@ about.leafAlt       = Keten çuval üzerinde kuru kekik yaprağı
 # ------------------------------------------------------------------ ürünler
 products.eyebrow = Neler sunuyoruz
 products.title   = Ürünlerimiz
-products.intro   = Türkiye'nin geleneksel yetiştirme alanlarından aromatik bitkiler ve bu bitkilerden damıttığımız uçucu yağlar.
+products.intro   = Türkiye'nin geleneksel yetiştirme alanlarından toptan kuru kekik ve adaçayı ile bu bitkilerden damıttığımız uçucu yağlar.
 
 products.label.botanical = Botanik
 products.label.form      = Form
@@ -74,19 +76,22 @@ products.label.oils      = Yağlar
 products.label.method    = Yöntem
 products.label.source    = Kaynak
 
-products.p1.name      = Kekik
+products.p1.name      = Türk Kekiği
 products.p1.desc      = Türk kekiği, kuru yaprak. Yüksek aromatik kalitesiyle bilinen Denizli yöresinde yetiştirilir ve işlenir.
+products.p1.alt       = Taze çiçekli dalıyla kuru Türk kekiği yaprağı (Origanum onites)
 products.p1.botanical = Origanum onites
 products.p1.form      = Kuru yaprak
 products.p1.origin    = Denizli, Türkiye
 
 products.p2.name   = Türk Adaçayı
 products.p2.desc   = Kuru yaprak; Anadolu'nun geleneksel yetiştirme alanlarından tedarik edilir.
+products.p2.alt    = Taze adaçayı dalıyla kuru Türk adaçayı yaprakları
 products.p2.form   = Kuru yaprak
 products.p2.origin = Anadolu, Türkiye
 
 products.p3.name   = Uçucu Yağlar
 products.p3.desc   = Kendi bitkilerimizden buhar distilasyonuyla üretilen kekik yağı ve adaçayı yağı.
+products.p3.alt    = Taze bitkilerin yanında kekik ve adaçayı uçucu yağı şişeleri
 products.p3.oils   = Kekik · Adaçayı
 products.p3.method = Buhar distilasyonu
 products.p3.source = Kendi bitkilerimiz

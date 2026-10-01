@@ -1,14 +1,8 @@
-# ============================================================================
-# PREVIEW MODE — the site is not ready to be indexed.
-#
-# AT LAUNCH: delete the two "Disallow" lines below, uncomment "Allow: /",
-# and remove the <meta name="robots" content="noindex, nofollow"> tag
-# from the top of index.html.
-# ============================================================================
+# To hide the site from search engines again (e.g. for a redesign preview):
+# change "Allow: /" to "Disallow: /" and add
+# <meta name="robots" content="noindex, nofollow"> to the <head> of index.html.
 
 User-agent: *
-Disallow: /
-
-# Allow: /
+Allow: /
 
 Sitemap: https://nilc.com.tr/sitemap.xml

@@ -23,7 +23,7 @@ assets/             Logo files, favicon, home-screen icon
 assets/img/         Drop customer photos here (see the README inside)
 .nojekyll           Tells GitHub Pages to serve files as-is
 CNAME               Custom domain for GitHub Pages (nilc.com.tr)
-robots.txt          Crawler rules — still in preview mode, see the file
+robots.txt          Crawler rules — the whole site is open to search engines
 sitemap.xml         Page list for search engines
 ```
 
@@ -104,6 +104,17 @@ below is still open or placeholder:
 | Phone / WhatsApp / office hours | Not supplied yet — add a row to `.contact-list` in `index.html` plus a label key in each `lang/*.txt` |
 | Photos | `assets/img/` — see [the guide there](assets/img/README.md) |
 | Logo | `assets/logo.svg` (full), `logo-light.svg` (footer), `logo-wordmark.svg` (header), `favicon.svg`, `logo.png` — all built from `assets/img/nilc-logo.pdf` |
+
+### Search engines (SEO)
+
+- Google's title and description for each language are the `meta.title` and
+  `meta.description` keys in `lang/*.txt`. Keep titles under ~60 characters
+  and descriptions under ~155, or Google cuts them off.
+- English lives at `https://nilc.com.tr/`, Turkish at `?lang=tr`, German at
+  `?lang=de`. `js/i18n.js` points each version's canonical URL at itself, and
+  `sitemap.xml` lists all three — keep them in step if a language is added.
+- Company details for Google are in the `application/ld+json` blocks in
+  `index.html`.
 
 ### Changing the colours
 

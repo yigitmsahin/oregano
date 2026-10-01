@@ -15,9 +15,11 @@
 
 
 # ---------------------------------------------------------------- browser tab
-meta.title       = Nilc Tarım — Turkish Oregano, Sage & Essential Oils
-meta.description = Nilc Tarım trades Turkish oregano (Origanum onites), sage and steam-distilled essential oils from the Denizli region — 45 years of experience, up to 3,000 MT per season, PA risk managed at the source.
+meta.title       = Nilc Tarım | Turkish Oregano, Sage & Essential Oils Supplier
+meta.description = Turkish oregano (Origanum onites), sage and steam-distilled oregano & sage oils from Denizli. 45 years of experience, PA risk managed at the source.
 meta.ogTitle     = Nilc Tarım — Turkish Oregano from the Denizli Region
+meta.keywords    = Turkish oregano, Origanum onites, dried oregano, bulk oregano supplier, oregano exporter Turkey, Denizli oregano, Turkish sage, dried sage leaves, oregano oil, sage oil, essential oils, pyrrolizidine alkaloids, PA compliant herbs
+meta.ogImageAlt  = Flowering Turkish oregano on a limestone hillside
 
 a11y.skip = Skip to content
 
@@ -68,7 +70,7 @@ about.leafAlt       = Dried oregano leaf on a linen sack
 # ------------------------------------------------------------------ products
 products.eyebrow = What we supply
 products.title   = Our products
-products.intro   = Aromatic herbs from Türkiye's traditional growing areas, and the essential oils we distil from them.
+products.intro   = Dried Turkish oregano and sage in bulk, from Türkiye's traditional growing areas, and the essential oils we distil from them.
 
 products.label.botanical = Botanical
 products.label.form      = Form
@@ -77,19 +79,22 @@ products.label.oils      = Oils
 products.label.method    = Method
 products.label.source    = Source
 
-products.p1.name      = Oregano
+products.p1.name      = Turkish Oregano
 products.p1.desc      = Turkish oregano, dried leaf. Grown and processed in the Denizli region, known for its high aromatic quality.
+products.p1.alt       = Dried Turkish oregano leaf (Origanum onites) with a fresh flowering sprig
 products.p1.botanical = Origanum onites
 products.p1.form      = Dried leaf
 products.p1.origin    = Denizli, Türkiye
 
 products.p2.name   = Turkish Sage
 products.p2.desc   = Dried leaf, sourced from Anatolia's traditional growing areas.
+products.p2.alt    = Dried Turkish sage leaves with a fresh sage branch
 products.p2.form   = Dried leaf
 products.p2.origin = Anatolia, Türkiye
 
 products.p3.name   = Essential Oils
 products.p3.desc   = Steam-distilled oregano oil and sage oil, produced from our own herbs.
+products.p3.alt    = Amber bottles of oregano and sage essential oil beside fresh herbs
 products.p3.oils   = Oregano · Sage
 products.p3.method = Steam distillation
 products.p3.source = Our own herbs

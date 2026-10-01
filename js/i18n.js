@@ -27,6 +27,11 @@ window.I18n = (function ($) {
   var STORE_KEY = "oregano.lang";
   var PATH      = "lang/";
 
+  var LOCALES   = { tr: "tr_TR", en: "en_US", de: "de_DE" };   // for og:locale
+
+  /* The site's home URL, taken from the canonical tag written in index.html. */
+  var SITE_URL = (document.querySelector('link[rel="canonical"]') || {}).href || "";
+
   var cache   = {};                 // code -> { key: value }
   var current = null;
 
@@ -119,6 +124,17 @@ window.I18n = (function ($) {
 
     /* Document-level bits that have no element of their own. */
     if (dict["meta.title"]) { document.title = dict["meta.title"]; }
+
+    /* Each language is its own page for search engines: English lives at the
+       bare URL, the others at ?lang=xx — matching the hreflang links and the
+       sitemap. Without this every version would declare itself a duplicate
+       of the English page and the translations would never be indexed. */
+    if (SITE_URL) {
+      var url = code === FALLBACK ? SITE_URL : SITE_URL + "?lang=" + code;
+      $('link[rel="canonical"]').attr("href", url);
+      $('meta[property="og:url"]').attr("content", url);
+    }
+    $('meta[property="og:locale"]').attr("content", LOCALES[code] || LOCALES[FALLBACK]);
 
     document.documentElement.setAttribute("lang", code);
     document.documentElement.setAttribute("dir", $.inArray(code, RTL) !== -1 ? "rtl" : "ltr");
